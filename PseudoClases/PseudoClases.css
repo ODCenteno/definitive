@@ -1,0 +1,32 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: aliceblue;
+}
+
+.main-nav__item {
+  display: inline-block; 
+}
+
+.main-nav__item a {
+  color: brown;
+  padding: 5px;
+  font-size: 24px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Notación para Pseudoclases: */
+.main-nav__item  a:hover {
+  color: yellow;
+}
+
+.main-nav__item a:active {
+  color: blueviolet;
+}
+
+/* Pseudoelementos:: */
+.main-nav__item a::after {
+  content: " | ";
+}
